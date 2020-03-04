@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EducQ</string>
+    <string name="is">Iniciar Sesión</string>
+    <string name="pregunta">En un partido de futbol americano,un corredor cronometró 5.0 segundos para realizar
+    una anotación a una velocidad de 8 yardas/seg. Si se sabe que una yarda es iual a 0.91 metros y a distancia es igual a la velocidad por el tiempo(d=V*t)
+    ¿Cuantos metros tuvo que recorrer el jugador para hacer a anotación?</string>
 </resources>

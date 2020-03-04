@@ -10,158 +10,284 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/fondoappt"
         android:scaleType="fitXY"
-        />
+        android:src="@drawable/fondoappt" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
+        android:layout_height="match_parent"
         android:background="#d8000000"
         android:gravity="center"
-        android:layout_height="match_parent">
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="200dp"
             android:layout_height="100dp"
-            android:src="@drawable/logohorizontal"
-            android:layout_marginBottom="50dp"
-            />
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/logohorizontal" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/et_matricula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Matricula"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/et_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Nombre"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/et_apellidoPaterno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="A. paterno"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/et_apellidoMaterno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="A. materno"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/et_fechaNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Fecha nacimiento"
+                    android:inputType="date"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/et_tutor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Nombre  tutor"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/et_nombreUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Nombre usuario"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/et_materia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Materia"
+                    android:inputType="text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/et_rol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Rol"
+                    android:inputType="number"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+
+                <EditText
+                    android:id="@+id/et_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/input"
+                    android:hint="Record"
+                    android:inputType="number"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+            </TableRow>
+
+
+        </TableLayout>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_matricula"
-            android:hint="Matricula"
-            android:inputType="text"
-            android:layout_marginBottom="15dp"
-            android:textColor="#fff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/input"
-            android:paddingLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textColorHint="#ccc"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_nombre"
-            android:hint="Nombre"
-            android:inputType="text"
-            android:layout_marginBottom="15dp"
-            android:textColor="#fff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/input"
-            android:paddingLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textColorHint="#ccc"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_aPaterno"
-            android:hint="Apellido paterno"
-            android:inputType="text"
-            android:layout_marginBottom="15dp"
-            android:textColor="#fff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/input"
-            android:paddingLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textColorHint="#ccc"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_aMaterno"
-            android:hint="Apellido materno"
-            android:inputType="text"
-            android:layout_marginBottom="15dp"
-            android:textColor="#fff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/input"
-            android:paddingLeft="20dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textColorHint="#ccc"/>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/et_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input"
             android:hint="Correo electrónico"
             android:inputType="textEmailAddress"
-            android:layout_marginBottom="15dp"
-            android:textColor="#fff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/input"
             android:paddingLeft="20dp"
-            android:paddingRight="10dp"
             android:paddingTop="10dp"
+            android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="#ccc"/>
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
         <EditText
+            android:id="@+id/et_contrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_contrasena"
-            android:hint="Contraseña"
-            android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/input"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
             android:paddingLeft="20dp"
-            android:paddingRight="10dp"
             android:paddingTop="10dp"
+            android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="#ccc"
             android:textColor="#fff"
-            android:inputType="textPassword"/>
+            android:textColorHint="#ccc" />
 
         <Button
+            android:id="@+id/crear_cuenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:id="@+id/crear_cuenta"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
             android:text="CREAR CUENTA"
             android:textColor="#fff"
-            android:textSize="16sp"
-            android:elevation="5dp"/>
+            android:textSize="16sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:gravity="center"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="¿Ya tienes cuenta?"
-                android:textSize="16sp"
                 android:textColor="#fff"
-                />
+                android:textSize="16sp" />
+
             <Button
+                android:id="@+id/btn_ir_inicioSesion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Iniciar Sesión"
-                android:id="@+id/btn_ir_inicioSesion"
-                android:background="@android:color/transparent"
                 android:layout_marginLeft="10dp"
-                android:textColor="#fff"/>
+                android:background="@android:color/transparent"
+                android:text="Iniciar Sesión"
+                android:textColor="#fff" />
 
         </LinearLayout>
 

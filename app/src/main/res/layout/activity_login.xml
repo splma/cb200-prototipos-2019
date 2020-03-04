@@ -29,10 +29,11 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_correo"
+            android:id="@+id/et_correoLoguin"
             android:hint="Correo electrónico"
             android:inputType="textEmailAddress"
             android:layout_marginBottom="15dp"
+            android:text="salvador@gmail.com"
             android:textColor="#fff"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -45,7 +46,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_contrasena"
+            android:id="@+id/et_contrasenaLogin"
             android:hint="Contraseña"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
@@ -57,6 +58,7 @@
             android:paddingBottom="10dp"
             android:textColorHint="#ccc"
             android:textColor="#fff"
+            android:text="123456"
             android:inputType="textPassword"/>
         <TextView
             android:layout_width="match_parent"
